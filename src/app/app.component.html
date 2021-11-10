@@ -1,0 +1,14 @@
+<h1>{{titulo}}</h1>
+
+<label>Operador 1: </label>
+<input type="number" class="form-control"
+[(ngModel)] = 'operador'>
+<label>Operador 2: </label>
+<input type="number" class="form-control"
+[(ngModel)] = 'operador2'>
+
+<button type= "submit" class ="btn btn-primary"
+ (click)="sumar()"> Sumar </button>
+
+<p>Resultado: {{resultado}}</p>
+
